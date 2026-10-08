@@ -22,7 +22,7 @@ practice. Several were rewritten more than once as a result.
   vs. skill, capability vs. product naming, the cost tradeoff behind every
   design choice).
 - `FEEDBACK-LEDGER.md` — a zero-infrastructure, append-only log of
-  cross-project corrections, used as the fallback when persistent memory
-  tooling isn't configured or reachable.
+  cross-project corrections. Mirrored on every Profile A save (dual-write
+  alongside persistent memory, never instead-of — see rule 12).
 - `e2e-evidence.md`, `*-template.md` — supporting mechanics referenced by
   specific rules, read on demand rather than loaded every session.
